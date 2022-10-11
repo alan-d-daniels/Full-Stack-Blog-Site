@@ -1,0 +1,391 @@
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+html{
+    height: 100%;
+}
+
+
+body{
+    background-color: black;   
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    color: #ff4c68;
+
+    
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    color:  #ef8172;
+    
+
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;    
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 5px;
+    background-color: #FFD6EC;
+    font-family: "Montserrat", sans-serif;
+    
+}
+.brand_name{
+    color: #FFE3E1;
+    font-family: "Ubuntu";
+}
+
+.navbar-nav  li a{
+    color: #ff4c68;
+    
+}
+
+.navbar-nav  li a:hover {
+    color: white!important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	text-align: center;      
+	
+	width: 100%;	
+	background-color: #FFD6EC;
+    margin-top: auto;
+    padding: 0.3em;
+}
+
+.card-home{
+
+    padding: 70px;    
+    background: radial-gradient(rgba(0, 0, 0, 0.2), #2C394B);
+    /* background: radial-gradient(#2C394B, rgba(0, 0, 0, 0.2)); */
+    margin: 10px;
+    margin-top: 40px;
+    border-radius: 5%;
+    
+    
+}
+.card-blog{
+
+  padding: 100px;    
+  background: radial-gradient(rgba(0, 0, 0, 0.2), #2C394B);
+  /* background: radial-gradient(#2C394B, rgba(0, 0, 0, 0.2)); */
+  margin: 10px;
+  margin-top: 40px;
+  border-radius: 5%;
+  
+  
+}
+
+
+.card-error{
+
+    padding: 100px;    
+    background: radial-gradient(rgba(0, 0, 0, 0.2), #2C394B);
+    /* background: radial-gradient(#2C394B, rgba(0, 0, 0, 0.2)); */
+    height: 100%;
+    
+    margin: 10px;
+    margin-top: 40px;
+    border-radius: 5%;
+
+    
+    
+    
+}
+.card-log{
+
+    padding: 100px 30px 100px 40px;    
+    background: radial-gradient(rgba(0, 0, 0, 0.2), #2C394B);
+    margin: 10px;
+    margin-top: 40px;
+    margin-left: 14px;
+    color:  #ef8172;
+    border-radius: 5%;
+    
+    
+    
+}
+
+.log-label{
+    margin-right: 690px;
+}
+
+.log-label-com{
+    margin-right: 940px;
+}
+
+
+
+.card-title{
+    color:#ff4c68;
+}
+
+.card-text{
+    color: #ef8172;
+}
+
+.form-group{
+    color: #ef8172;
+}
+
+
+.footer p {
+	margin-top: 25px;
+    padding-top: 20px;
+	font-size: 12px;
+    color: #ff4c68;
+}
+
+.inline {
+    display: inline;
+  }
+  
+  .link-button {
+    background: none;
+    border: none;
+    color: #ff4c68;    
+    cursor: pointer;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    padding: 8px 8px 8px 0;    
+    letter-spacing: 5px;
+  }
+
+  .navbar-nav  li .link-button:hover {
+    color: white!important;
+}
+
+.list-group{
+  border-radius: 20%
+
+}
+
+.list-group-item{
+  background-color: #2C394B;
+  color: #ef8172; 
+  border-radius: 20%;
+  margin-bottom:6px;
+
+}
+
+  
+  .link-button:focus {
+    outline: none;
+  }
+
+  .container {
+    flex: 0 1 500px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .screen {
+    position: relative;
+    background: #2C394B;
+    border-radius: 15px;
+  }
+  
+  .screen:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+    z-index: -1;
+  }
+  
+  .screen-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #2C394B;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .screen-header-left {
+    margin-right: auto;
+  }
+  
+  .screen-header-button {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 3px;
+    border-radius: 8px;
+    background: white;
+  }
+  
+  .screen-header-button.close {
+    background: #ed1c6f;
+  }
+  
+  .screen-header-button.maximize {
+    background: #e8e925;
+  }
+  
+  .screen-header-button.minimize {
+    background: #74c54f;
+  }
+  
+  .screen-header-right {
+    display: flex;
+  }
+  
+  .screen-header-ellipsis {
+    width: 3px;
+    height: 3px;
+    margin-left: 2px;
+    border-radius: 8px;
+    background: #999;
+  }
+  
+  .screen-body {
+    display: flex;
+  }
+  
+  .screen-body-item {
+    flex: 1;
+    padding: 50px;
+  }
+  
+  .screen-body-item.left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #ff4c68; 
+    font-size: 26px;
+  }
+  
+  .app-title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 25px;
+    height: 4px;
+    background: #ff4c68; 
+  }
+  
+  .app-contact {
+    margin-top: auto;
+    font-size: 8px;
+    color: #888;
+  }
+  
+  .app-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .app-form-group.message {
+    margin-top: 40px;
+  }
+  
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  
+  .app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+  }
+  
+  .app-form-control::placeholder {
+    color: #666;
+  }
+  
+  .app-form-control:focus {
+    border-bottom-color: #ddd;
+  }
+  
+  .app-form-button {
+    background: none;
+    border: none;
+    color: #ea1d6f;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .app-form-button:hover {
+    color: #b9134f;
+  }
+  
+  
+  
+  .dribbble {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+  }
+  
+  @media screen and (max-width: 520px) {
+    .screen-body {
+      flex-direction: column;
+    }
+  
+    .screen-body-item.left {
+      margin-bottom: 30px;
+    }
+  
+    .app-title {
+      flex-direction: row;
+    }
+  
+    .app-title span {
+      margin-right: 12px;
+    }
+  
+    .app-title:after {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .screen-body {
+      padding: 40px;
+    }
+  
+    .screen-body-item {
+      padding: 0;
+    }
+  }
+  
+
+
+
+

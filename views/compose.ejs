@@ -1,0 +1,31 @@
+<%- include("partials/header")-%>
+<h1 class="text-center">COMPOSE</h1>
+
+<div class="container">
+    <center>
+    <div class="col-sm-8">
+        <form action="/compose" method="post">
+            <div class="form-group">
+                <label class="log-label-com" for="genreName">Genre</label>
+                <input type="text" class="form-control" id="genreName"" name="genreName">       
+            </div><br>
+            <div class="form-group">
+                <label class="log-label-com" for="postTitle">Title</label>
+                <input type="text" class="form-control" id="postTitle" name="postTitle">       
+            </div>
+            <div class="form-group"><br>
+                <label class="log-label-com" for="postBody">Post</label>
+                <textarea class="form-control" id="postBody" rows="16" name="postBody"></textarea>
+              </div><br>
+    
+            <div class="text-center">
+                <button type="submit" class="btn btn-lg btn-outline-light">Submit</button>
+    
+            </div>           
+        </form>
+    </div>
+    </center>
+</div>
+
+
+<%- include("partials/footer")-%>

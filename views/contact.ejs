@@ -25,21 +25,19 @@ div class="background">
         </div>
         <div class="screen-body-item">
           <div class="app-form">
+            <form action="/contact" method="post">
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="NAME">
+              <input type="text" class="form-control" name="name" placeholder="NAME">
             </div>
             <div class="app-form-group">
-              <input class="app-form-control" placeholder="EMAIL">
-            </div>
-            <div class="app-form-group">
-              <input class="app-form-control" placeholder="CONTACT NO">
-            </div>
+              <input type="text" class="form-control" name="email" placeholder="EMAIL">
+            </div>            
             <div class="app-form-group message">
-              <input class="app-form-control" placeholder="MESSAGE">
+              <input type="text" class="form-control" name="message" placeholder="MESSAGE">
             </div>
-            <form action="/" method="post">
+            
               <div class="app-form-group buttons">              
-                <button class="app-form-button" name="contact" value="details">SEND</button>
+                <button class="app-form-button" name="contact">SEND</button>
               </div>
             </form>
             

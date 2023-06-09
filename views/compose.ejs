@@ -5,9 +5,19 @@
     <center>
     <div class="col-sm-8">
         <form action="/compose" method="post">
+
             <div class="form-group">
                 <label class="log-label-com" for="genreName">Genre</label>
-                <input type="text" class="form-control" id="genreName"" name="genreName">       
+                <select class="form-select" name="genreName" aria-label="Default select example">                    
+                    <option value="nothing" selected>Select genre</option>
+                          <option value="Food Blog">Food Blog</option>
+                          <option value="Travel Blog">Travel Blog</option>
+                          <option value="Health Blog">Health Blog</option>
+                          <option value="Sports Blog">Sports Blog</option>
+                          <option value="Movie Blog">Movie Blog</option>
+                          <option value="Tech Blog">Tech Blog</option>
+                  </select>
+                 
             </div><br>
             <div class="form-group">
                 <label class="log-label-com" for="postTitle">Title</label>

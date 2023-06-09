@@ -23,11 +23,19 @@ h1,h2,h3,h4,h5{
     
 }
 
-p{
+p {
     font-family: "Montserrat", sans-serif;
     color:  #ef8172;
+    font-size: 18px;
     
 
+}
+
+li{
+    font-family: "Montserrat", sans-serif;
+    color:  #ef8172;
+    font-size: 18px;
+  
 }
 .navbar {
     padding-top: 15px;
@@ -385,6 +393,9 @@ p{
     }
   }
   
+#postContent{
+  white-space: pre-line;
+}
 
 
 
